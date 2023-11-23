@@ -90,6 +90,10 @@ fn main() {
         std::process::exit(0);
     }    
 
+    //ToDo Fix?
+    if args.nested.is_none() {
+        println!("\n{WELCOME}\n");
+    }
 
 
     if !Path::new("info.toml").exists() {
@@ -355,7 +359,7 @@ How Zustlings works
 Got all that? Great! To get started, run `zustlings watch` in order to get the first
 exercise. Make sure to have your editor open!"#;
 
-const FENISH_LINE: &str = r#"+----------------------------------------------------+
+const FENISH_LINE: &str = r"+----------------------------------------------------+
 |          You made it to the End of this Homework!          |
 +--------------------------  ------------------------+
                           \\/
@@ -377,8 +381,12 @@ const FENISH_LINE: &str = r#"+--------------------------------------------------
 
 We hope you enjoyed learning about the various aspects of Rust!
 If you noticed any issues, please don't hesitate to report them to our repo.
-You can also contribute your own exercises to help the greater community!
+You can also contribute your own exercises to help the greater community!";
 
-
-
-const WELCOME: &str = r#"       welcome to... Zustlins"#;
+const WELCOME: &str = r"       welcome to...
+                _   _ _                 
+  _____   _ ___| |_| (_)_ __   __ _ ___ 
+ |_  / | | / __| __| | | '_ \ / _` / __|
+  / /| |_| \__ \ |_| | | | | | (_| \__ \
+ /___|\__,_|___/\__|_|_|_| |_|\__, |___/
+                              |___/";
