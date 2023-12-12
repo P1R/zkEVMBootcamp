@@ -1,18 +1,18 @@
-bootcamp/*.swp
-bootcamp/target/
-bootcamp/**/*.rs.bk
-bootcamp/.DS_Store
-bootcamp/*.pdb
-bootcamp/exercises/clippy/Cargo.toml
-bootcamp/exercises/clippy/Cargo.lock
-bootcamp/rust-project.json
-bootcamp/.idea
-bootcamp/.vscode/*
-bootcamp/!.vscode/extensions.json
-bootcamp/*.iml
-bootcamp/*.o
-bootcamp/public/
-bootcamp/.direnv/
-bootcamp/
-bootcamp/# Local Netlify folder
-bootcamp/.netlify
+**/*.swp
+**/target/
+**/**/*.rs.bk
+**/.DS_Store
+**/*.pdb
+**/exercises/clippy/Cargo.toml
+**/exercises/clippy/Cargo.lock
+**/rust-project.json
+**/.idea
+**/.vscode/*
+**/!.vscode/extensions.json
+**/*.iml
+**/*.o
+**/public/
+**/.direnv/
+**/
+**/# Local Netlify folder
+**/.netlify
