@@ -13,7 +13,6 @@
 **/*.o
 **/public/
 **/.direnv/
-**/
 **/# Local Netlify folder
 **/.netlify
 **/Cargo.lock
