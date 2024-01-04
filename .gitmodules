@@ -1,0 +1,3 @@
+[submodule "r1cs-tutorial"]
+	path = r1cs-tutorial
+	url = https://github.com/P1R/r1cs-tutorial.git
